@@ -16,7 +16,7 @@
 .App-header {
   background-color: #0456fb;
   height: 120px;
- 
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -24,9 +24,20 @@
 .App-link {
   color: #61dafb;
 }
-.buttonGroup {
+body {
+background-color: aquamarine;
+}
+button {
+  margin: 5px;
   background-color: #0456fb;
-height : 40px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Add any additional styles you want */
 }
 @keyframes App-logo-spin {
   from {
